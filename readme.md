@@ -6,6 +6,8 @@
 
 ## Installation
 
-1. Just drag the following link to your bookmarks: [Hotjar Suppression Plugin](https://www.google.com)
-2. Visit a URL to test
-3. Press the bookmark to run the bookmarklet
+Just drag the following link to your bookmarks: 
+
+*[Hotjar Suppression Plugin](!function(){var e=document.createElement("LINK");e.href="https://rawgithub.com/karltynan/hotjar-suppression-plugin/master/hotjar.css",e.rel="stylesheet",e.media="all",document.body.appendChild(e)}();)*
+
+Then visit a URL to test and press the bookmark to run the bookmarklet... Simple!
