@@ -1,0 +1,1 @@
+﻿h1. Hotjar Suppression Plugin for Google Chrome
