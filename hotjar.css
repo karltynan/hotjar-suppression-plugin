@@ -2,7 +2,6 @@
 select[data-hj-suppress],
 textarea[data-hj-suppress]
 {
-	outline: 3px dashed red !important;
 	outline-offset: unset;
 }
 
