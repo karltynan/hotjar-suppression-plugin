@@ -21,3 +21,7 @@ I have created this bookmarklet as a response to GDPR when using Hotjar on websi
 If you are using Hotjar, you could be capturing secure or private information.
 
 The data attributes Hotjar provides, such as <code>data-hj-suppress</code>, allow you to _suppress_ the information by sending asterisks "***" or 1s "111" for each character instead.
+
+## Test it!
+
+<p data-hj-suppress>This line of text will highlight when the bookmarklet has run.</p>
