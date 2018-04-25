@@ -18,4 +18,6 @@ Then visit a URL to test and press the bookmark to run the bookmarklet... Simple
 
 I have created this bookmarklet as a response to GDPR when using Hotjar on websites.
 
-If you are using Hotjar, you will often be capturing secure or private information. The special data attributes Hotjar provides, such as <code>data-hj-suppress</code>, allow you to _suppress_ the information by sending asterisks "***" or 1s "111" for each character instead.
+If you are using Hotjar, you could be capturing secure or private information.
+
+The data attributes Hotjar provides, such as <code>data-hj-suppress</code>, allow you to _suppress_ the information by sending asterisks "***" or 1s "111" for each character instead.
