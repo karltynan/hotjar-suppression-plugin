@@ -2,7 +2,9 @@
 
 ## What is it?
 
-**Hotjar Suppression Bookmarklet** is a simple bookmarklet for your browser. It highlights fields and markup on a page that are intended to be _suppressed_ when running Hotjar on your website.
+**Hotjar Suppression Bookmarklet** is a simple bookmarklet for your browser.
+
+It highlights fields and markup on a page that are intended to be _suppressed_ when running *Hotjar* or *inspectlet* on your website.
 
 ## Installation
 
@@ -18,10 +20,20 @@ Then visit a URL to test and press the bookmark to run the bookmarklet... Simple
 
 I have created this bookmarklet as a response to GDPR when using Hotjar on websites.
 
-If you are using Hotjar, you could be capturing secure or private information.
+If you are using *Hotjar* or *inspectlet*, you could be capturing secure or private information.
 
-The data attributes Hotjar provides, such as <code>data-hj-suppress</code>, allow you to _suppress_ the information by sending asterisks "***" or 1s "111" for each character instead.
+### Hotjar
 
-## Test it!
+The data attribute Hotjar provides, <code>data-hj-suppress</code>, allows you to _suppress_ the information being sent to Hotjar.
+
+#### Test Hotjar
 
 <p data-hj-suppress>This line of text will highlight when the bookmarklet has run.</p>
+
+### inspectlet
+
+The classes inspectlet provides, <code>.inspectletIgnore</code> for inputs and <code>.inspectlet-sensitive</code> for sensitive information, allows you to _suppress_ the information being sent to inspectlet.
+
+#### Test inspectlet
+
+<p class="inspectlet-sensitive">This line of text will highlight when the bookmarklet has run.</p>

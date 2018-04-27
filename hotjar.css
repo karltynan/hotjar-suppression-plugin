@@ -1,6 +1,9 @@
 ﻿input[data-hj-suppress],
 select[data-hj-suppress],
-textarea[data-hj-suppress]
+textarea[data-hj-suppress],
+input.inspectletIgnore,
+select.inspectletIgnore,
+textarea.inspectletIgnore
 {
 	outline-offset: unset;
 }
@@ -8,4 +11,10 @@ textarea[data-hj-suppress]
 [data-hj-suppress]
 {
 	outline: 3px dashed red !important;
+}
+
+.inspectletIgnore,
+.inspectlet-sensitive
+{
+	outline: 3px dashed orange !important;
 }
